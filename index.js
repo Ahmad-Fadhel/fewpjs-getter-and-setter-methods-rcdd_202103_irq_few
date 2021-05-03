@@ -12,7 +12,7 @@ class Circle {
     return this.pi * this.diameter
   }
   get area(){
-    return this.pi * (this.radius**2)
+    return this.pi * Math.pow(this.radius,2)
   }
 }
 
