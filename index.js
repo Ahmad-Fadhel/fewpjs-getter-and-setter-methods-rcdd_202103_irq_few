@@ -16,4 +16,9 @@ class Circle {
   }
 }
 
+let circle = new Circle(6)
+circle.diameter;
+circle.circumference;
+circle.area
+
 
