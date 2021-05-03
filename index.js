@@ -11,8 +11,8 @@ class Circle {
   get circumference(){
     return pi * this.diameter
   }
-  get diameter(){
-    return radius * 2
+  get area(){
+    return pi * radius^2
   }
 }
 
