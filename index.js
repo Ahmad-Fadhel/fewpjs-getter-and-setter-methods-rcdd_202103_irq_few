@@ -21,14 +21,15 @@ class Circle {
   set circumference(circ){
     return this.radius = (circ/this.pi)/2
   }
-  set area(are){
-    return this.radius = Math.sqrt(are/this.pi)
-  }
+
 }
 
 let circle = new Circle(6)
 circle.diameter;
 circle.circumference;
 circle.area
+circle.diameter = 18;
+circle.circumference =15;
+
 
 
