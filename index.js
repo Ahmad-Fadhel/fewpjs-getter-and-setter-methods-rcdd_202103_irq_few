@@ -2,14 +2,14 @@
 class Circle {
   constructor(radius){
     this.radius = radius;
-    
+    this.pi = Math.pi;
   }
   
   get diameter(){
     return this.radius * 2
   }
   get circumference(){
-    return Math.pi * this.radius * 2
+    return this.pi * this.radius*2
   }
   get area(){
     return this.pi * Math.pow(this.radius,2)
@@ -19,6 +19,6 @@ class Circle {
 let circle = new Circle(6)
 circle.diameter;
 circle.circumference;
-circle.area;
+circle.area
 
 
