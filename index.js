@@ -16,13 +16,13 @@ class Circle {
   }
   
   set diameter(dia){
-    return this.radius / 2
+    return this.radius = dia / 2
   }
   set circumference(circ){
-    return this.pi * this.radius*2
+    return this.radius = (circ/this.pi)/2
   }
   set area(are){
-    return this.pi * Math.pow(this.radius,2)
+    return this.radius = Math.sqrt(are/this.pi)
   }
 }
 
